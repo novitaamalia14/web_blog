@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sistem Informasi Aplikasi Penjualan">
+    <meta name="description" content="Sistem Informasi Aplikasi Blog">
     <meta name="author" content="Novita Amalia">
-    <meta name="keywords" content="Sistem Informasi, Website, Penjualan">
-    <title>Sistem Informasi Aplikasi Penjualan </title>
+    <meta name="keywords" content="Sistem Informasi, Website, Blog">
+    <title>Sistem Informasi Aplikasi Blog </title>
     <link rel="stylesheet" href="<?php echo ASSET;?>css/Style.css">
 </head>
 
