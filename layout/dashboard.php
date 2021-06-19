@@ -28,7 +28,7 @@
                 <li> 
                     <a href="index.php?page=photo_tampil" class="aktif">Photo</a> 
                 </li>
-
+ 
                 <li> 
                     <a href="index.php?page=post_tampil" class="aktif">Post</a> 
                 </li> 
