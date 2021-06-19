@@ -31,7 +31,7 @@
                     } else {
                         include "main_index.php";
                     }
-
+ 
                 ?>     
         </section>
 
