@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box; 
+}
+
+/*Mengatur Font Yang Dipakai dan Background Halaman*/
+body {
+    font-family: Cambria;
+    margin: 0;
+    background: white;
+}
+
+/*Membuat Container*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Mengatur Desain Header*/
+header{
+    background:palevioletred;
+    color: whitesmoke;
+    padding: 15px 20px;
+    font-size: 22px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Mengatur Lebar Menu 20%*/
+aside {
+    flex: 20%;
+    background: rgb(207, 68, 115);
+}
+
+/*Mengatur Lebar Konten Utama 80%*/
+section.main{
+    flex: 80%;
+    background: #fff;
+    min-height: 580px;
+    padding: 5px 30px;
+}
+
+/*Mengatur Footer dengan Background Abu-abu dan Teks DiTengah*/
+footer{
+    background: #ccc;
+    color: #555;
+    padding: 8px;
+    text-align: center;
+}
+
+/*Mengatur Layout Pada Layar Kecil (Responsive)*/
+@media (max-width : 700px){
+    .container {
+        flex-direction: column;
+    }
+}
+
+/*Navigasi*/
+/*Membuang Padding Tag <ul>*/
+.menu {
+    padding: 0;
+}
+/*Menambah Border Bawah Tag <li>*/
+.menu li {
+    border-bottom: 1px dotted rgb(219, 218, 218);
+}
+/*Mengatur Desain Menu Yang Dibuat Dengan Tag a */
+.menu a {
+    display: block;
+    padding: 20px 20px;
+    list-style: none;
+    color: #fff;
+    text-decoration: none; 
+    font-family: 'Times New Roman';
+}
+/*Mengatur Backgroun Menu Ketika Ditunjuk Mouse*/
+.menu a:hover{
+    background: rgb(236, 151, 222);
+}
+
+/*Stye Submit*/
+input[type=submit1]{
+    cursor:pointer;
+    background-color: rgb(233, 74, 122);
+    width: 100%;
+    height: 40px;
+    color:white;
+    font-size: medium;
+    text-align: center;
+}
+
+/*Mengatur Tabel*/
+.tabel1{
+    border: 1px solid grey;
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman';
+    table-layout: auto;
+    border-collapse:collapse ;
+    background-color:pink;
+}
+
+.tabel1 tr td  {
+    border: 1px solid grey;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+    table-layout: auto;
+}
+
+
+.tabel1 th {
+    background-color: rgb(236, 49, 112);
+    border: 1px solid grey;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+    table-layout: auto;
+}
+
+
+/*Stye Submit*/
+.tombol{
+    display: inline-block;
+    max-width: 150px;
+    padding: 10px 15px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color:  palevioletred;
+    color: white;
+    border: 3px;
+}
+
+.login-box{
+    margin-top:50px;
+    flex-basis: 300px;
+    padding: 5px;
+}
+
+input, select{
+    width: 300px;
+    padding: 10px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    margin-top: 10px;
+}

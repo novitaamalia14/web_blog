@@ -1,0 +1,19 @@
+{
+    "name": "novita-amalia/uts_blog",
+    "description": "UTS BLOG PBWL",
+    "type": "project",
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "NovitaAmalia",
+            "email": "novamalia14@gmail.com"
+        }
+    ]
+}
